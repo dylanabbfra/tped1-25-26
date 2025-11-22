@@ -1,6 +1,5 @@
-{
-    margin: 0;
-    padding: 0;
+.prueba {
+
     box-sizing: border-box;
 }
 
@@ -41,3 +40,4 @@ ul li a:hover {
     color: white;
     transform: translateX(6px);
     box-shadow: 0 5px 15px rgba(0, 110, 255, 0.3);
+    }
