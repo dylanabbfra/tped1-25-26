@@ -3,40 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diseño Café</title>
-    <link rel="stylesheet" href="../style.css">
+    <title>Hongjoong Bicolor</title>
+    <link rel="stylesheet" href="../galeria.css">
     <style>
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            background: white;
-            padding: 30px;
-            border-radius: 20px;
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #f5f3f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .imagen-contenedor {
+            max-width: 90%;
+            margin: 20px;
+        }
+        .imagen-contenedor img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
             box-shadow: 0 6px 20px rgba(0,0,0,0.1);
         }
-        img {
-            width: 100%;
-            border-radius: 20px;
-            margin-bottom: 20px;
+        .titulo-img {
+            font-size: 22px;
+            color: #444;
+            margin: 12px 0 6px;
         }
-        a {
-            text-decoration: none;
-            color: #333;
-            font-weight: 600;
+        .descripcion-img {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <a href="galeria.html">← Volver a la galería</a>
-
-    <img src="imagaleria/honggyaru (1).jpg" alt="">
-
-    <h1>Hongjoong Bicolor</h1>
-    <p>
-        Estética cabello oreo.
-    </p>
+<div class="imagen-contenedor">
+    <img src="imagaleria/honggyaru (1).jpg" alt="Hongjoong Bicolor">
+    <h2 class="titulo-img">Hongjoong Bicolor</h2>
+    <p class="descripcion-img">Estética cabello oreo.</p>
 </div>
 
 </body>
