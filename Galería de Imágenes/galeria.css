@@ -13,7 +13,6 @@ body {
   color: #111;
 }
 
-/* Flexbox para maquetar tipo Pinterest */
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -24,7 +23,7 @@ body {
 
 .card {
   position: relative;
-  flex: 1 1 250px; /* ancho mínimo 250px, flexible */
+  flex: 1 1 250px; 
   max-width: 300px;
   background: white;
   border-radius: 16px;
