@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería Profesional</title>
+    <link rel="stylesheet" href="lightbox/css/lightbox.min.css">
+    <link rel="stylesheet" href="galeria.css">
+</head>
+<body>
+
+    <header>
+        <h1>Galería de Imágenes</h1>
+        <p class="subtitulo">El arte del fanart.</p>
+    </header>
+
+    <div class="gallery">
+
+        <div class="item">
+            <a href="images/paisaje1.jpg" 
+               data-lightbox="mi-galeria" 
+               data-title="<h3>Paisaje Montañoso</h3><p>Fotografía al atardecer con colores cálidos.</p>">
+               <img src="images/paisaje1_thumb.jpg" alt="Paisaje Montañoso">
+            </a>
+            <h4 class="titulo">Paisaje Montañoso</h4>
+            <p class="descripcion">Atardecer con tonos naranjas y rosados.</p>
+        </div>
+
+        <!-- Ejemplo 2 -->
+        <div class="item">
+            <a href="images/playa.jpg" 
+               data-lightbox="mi-galeria" 
+               data-title="<h3>Playa Tropical</h3><p>Aguas cristalinas y arena blanca.</p>">
+               <img src="images/playa_thumb.jpg" alt="Playa Tropical">
+            </a>
+            <h4 class="titulo">Playa Tropical</h4>
+            <p class="descripcion">Arena blanca y agua turquesa.</p>
+        </div>
+
+        <!-- Ejemplo 3 -->
+        <div class="item">
+            <a href="images/bosque.jpg" 
+               data-lightbox="mi-galeria" 
+               data-title="<h3>Bosque Verde</h3><p>Sendero en un bosque frondoso.</p>">
+               <img src="images/bosque_thumb.jpg" alt="Bosque Verde">
+            </a>
+            <h4 class="titulo">Bosque Verde</h4>
+            <p class="descripcion">Naturaleza y tranquilidad.</p>
+        </div>
+
+        <!-- Añade tantas imágenes como quieras copiando un DIV "item" -->
+    </div>
+
+    <!-- Lightbox2 JS -->
+    <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
