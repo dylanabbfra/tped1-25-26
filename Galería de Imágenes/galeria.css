@@ -71,18 +71,20 @@ body {
 }
 
 
-.redes {
+footer {
     text-align: center;
-    padding: 20px 0;
-    background: #faf9f8; 
-    margin: 0 10px;
-    font-size: 20px;
-    color: #444;
-    transition: color 0.3s, transform 0.3s;
+    padding: 20px;
 }
 
-.redes a:hover {
-    color: #e63946; 
-    transform: scale(1.2); 
+footer a {
+    color: #111; 
+    margin: 0 10px; 
+    font-size: 24px; 
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+footer a:hover {
+    color: #e1306c; /
+   
 }
 
