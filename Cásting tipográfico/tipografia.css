@@ -2,9 +2,9 @@ body {
     margin: 0;
     padding: 40px;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #f9e7f5, #e3f0ff, #fdf2d6);
+    background: linear-gradient(135deg, #f7e7ff, #e4f2ff, #fff4e3);
     background-size: 200% 200%;
-    animation: fondo 12s ease infinite;
+    animation: fondo 10s ease infinite;
 }
 
 @keyframes fondo {
@@ -21,9 +21,11 @@ body {
     letter-spacing: 1px;
 }
 
-.titulo i {
-    margin-right: 12px;
-    color: #ff8fcf;
+.titulo span {
+    font-family: "Material Symbols Outlined";
+    font-size: 2.6rem;
+    vertical-align: -6px;
+    color: #b84cff;
 }
 
 .type-gallery {
@@ -36,59 +38,58 @@ body {
 .type-card {
     width: 300px;
     padding: 25px;
-    border-radius: 18px;
-    backdrop-filter: blur(12px);
-    background: rgba(255, 255, 255, 0.55);
-    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 8px 28px rgba(0,0,0,0.12);
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 20px;
     text-align: center;
-    transition: transform 0.35s ease, box-shadow 0.35s ease;
     position: relative;
+    transition: transform 0.3s ease, box-shadow 0.35s ease;
 }
 
-.type-card .icono-tipo {
-    font-size: 1.6rem;
-    color: #777;
+.icono-tipo {
+    font-family: "Material Symbols Outlined";
+    font-size: 1.9rem;
     position: absolute;
-    top: 18px;
-    right: 18px;
+    top: 15px;
+    right: 15px;
     opacity: 0.7;
-    transition: color 0.3s ease;
+    transition: opacity 0.3s ease;
 }
 
 .type-card:hover .icono-tipo {
-    color: #000;
+    opacity: 1;
 }
 
 .type-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.18);
 }
 
 .type-preview {
     font-size: 1.2rem;
-    transition: filter 0.4s ease, transform 0.3s ease;
+    transition: filter 0.3s ease;
 }
 
 .type-card:hover .type-preview {
     filter: invert(100%);
-    transform: scale(1.05);
 }
 
 .type-card h2 {
     margin: 0;
     font-size: 1.4rem;
-    color: #444;
+    color: #333;
 }
 
-.pastel1 { border: 2px solid #ffb3d1; }
-.pastel2 { border: 2px solid #b8c7ff; }
-.pastel3 { border: 2px solid #ffd7a3; }
-.pastel4 { border: 2px solid #c9ffe1; }
-.pastel5 { border: 2px solid #ffe3f4; }
-.pastel6 { border: 2px solid #c4e8ff; }
-.pastel7 { border: 2px solid #e7d5ff; }
-.pastel8 { border: 2px solid #ffe7c2; }
+.p1 { border: 2px solid #ffb7db; }
+.p2 { border: 2px solid #b6c4ff; }
+.p3 { border: 2px solid #ffd7a3; }
+.p4 { border: 2px solid #c9ffe1; }
+.p5 { border: 2px solid #ffe3f4; }
+.p6 { border: 2px solid #c4ecff; }
+.p7 { border: 2px solid #e2d0ff; }
+.p8 { border: 2px solid #ffe7c2; }
 
