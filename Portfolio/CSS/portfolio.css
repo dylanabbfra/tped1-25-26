@@ -81,3 +81,64 @@ h2 {
     margin-bottom: 16px;
     width: 100%;
 }
+
+.project:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.12);
+}
+
+.project h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.project p {
+    font-size: 0.95rem;
+    color: #777;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+    100% { transform: translateY(0); }
+}
+
+.project img {
+    animation: float 5s ease-in-out infinite;
+}
+
+section h2 + p {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+section p {
+    color: #555;
+}
+
+footer {
+    background-color: #eee;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .profile-box {
+        width: 180px;
+        height: 220px;
+    }
+}
