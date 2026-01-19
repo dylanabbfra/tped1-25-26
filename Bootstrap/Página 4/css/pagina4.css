@@ -1,0 +1,18 @@
+.header {
+  background: #555;
+  color: white;
+  padding: 20px;
+}
+
+.nav {
+     background: gold; 
+     padding: 20px; 
+}
+.content {
+     background: skyblue; 
+     padding: 20px; 
+}
+.aside { 
+    background: lightgreen; 
+    padding: 20px; 
+}

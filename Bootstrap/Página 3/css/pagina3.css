@@ -1,0 +1,14 @@
+.nav {
+  background: orange;
+  padding: 20px;
+}
+
+.content {
+  background: lightblue;
+  padding: 20px;
+}
+
+.aside {
+  background: lightgreen;
+  padding: 20px;
+}

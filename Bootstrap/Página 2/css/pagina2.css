@@ -1,0 +1,16 @@
+.header {
+  background: gray;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav {
+  background: gold;
+  padding: 20px;
+}
+
+.content {
+  background: skyblue;
+  padding: 20px;
+}

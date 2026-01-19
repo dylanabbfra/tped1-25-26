@@ -1,0 +1,11 @@
+.nav {
+  background: orange;
+  padding: 20px;
+  min-height: 200px;
+}
+
+.content {
+  background: lightblue;
+  padding: 20px;
+  min-height: 200px;
+}
